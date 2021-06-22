@@ -31,7 +31,10 @@
             background: rgb(66, 184, 221);
             /* this is a light blue */
         }
-        div {
+   .button-xl {
+            font-size: 125%;
+        }
+  div {
         position: absolute;
         left: 50%;
         top: 50%;
@@ -42,12 +45,22 @@
         text-align: center;
         box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
       }
+    a {
+  color: black;
+  text-decoration: none; /* no underline */
+}
     </style>
   </head>
   <body>
     <div>
-      <button class="button-secondary pure-button"><a href="https://discord.gg/2feuupnRbe">Discord</a></button><br>
-      <button class="button-success pure-button"><a href="https://givebutter.com/kNGeqD">Donate</a></button>
+      <p>
+      <button class="button-secondary button-xl pure-button"><a href="https://discord.gg/2feuupnRbe">Discord</a></button><br>
+        <i>Come Say HI!</i>
+      </p>
+      <p>
+      <button class="button-success button-xl pure-button"><a href="https://givebutter.com/kNGeqD">Donate</a></button><br>
+        <i>Please include your in game name</i>
+      </p>
     </div>
   </body>
 </html>
